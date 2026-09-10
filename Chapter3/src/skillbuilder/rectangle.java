@@ -25,6 +25,10 @@ public class rectangle {
 	//Display the length and the width
 	System.out.println("The length is:" + length);
 	System.out.print("The width is:" + width);
+	
+	
+	//Jack Nguyen
+	
 	}
     
 }
