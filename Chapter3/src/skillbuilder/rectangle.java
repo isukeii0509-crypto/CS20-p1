@@ -15,11 +15,11 @@ public class rectangle {
 	 Scanner userinput = new Scanner (System.in);
 	 
 	 //Get user input from keyboard
-	 System.out.print("Enter width: ");
+	 System.out.print("Enter length: ");
 	 width = userinput.nextInt();
 	 
 	//Get user input from keyboard
-		 System.out.print("Enter length: ");
+		 System.out.print("Enter width: ");
 		 length = userinput.nextInt();
     
     //Get the area
@@ -28,11 +28,7 @@ public class rectangle {
 	System.out.println("Area of rectangle: " + area );
 	
 		 
-	//Display the length and the width
-	System.out.println("The length is:" + length);
-	System.out.print("The width is:" + width);
-	
-	
+
 	//Jack Nguyen
 	
 	}
