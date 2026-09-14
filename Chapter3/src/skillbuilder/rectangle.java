@@ -21,6 +21,12 @@ public class rectangle {
 	//Get user input from keyboard
 		 System.out.print("Enter length: ");
 		 length = userinput.nextInt();
+    
+    //Get the area
+	int area;
+	area = length * width;
+	System.out.println("Area of rectangle: " + area );
+	
 		 
 	//Display the length and the width
 	System.out.println("The length is:" + length);
