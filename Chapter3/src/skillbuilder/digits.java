@@ -4,26 +4,30 @@ import java.util.Scanner;
 
 public class digits {
 
-	public static void main(String[] args) 
-	{
-		//declaration
-		int i;
-		double d;
-		int x;
+    public static void main(String[] args) {
 
-		//User input creation
-	Scanner userinput = new Scanner (System.in);
-		 
-		 //Get user input for int
-		 System.out.print("Enter integer: ");
-		 i = userinput.nextInt();
-		 
-		 //Get user input for double
-		 System.out.print("Enter double: ");
-		 d = userinput.nextDouble();
+        // declaration
+        double userNumber;
+        int number;
+        int tens;
+        int ones;
 
-		 x = i * (int)d;
-		 System.out.println("Your digits are: " + x);
-	}
-	}
+        // User input creation
+        Scanner userinput = new Scanner (System.in);
+        
+        System.out.print("Enter a two digit code:");
+        
+        // Get user input as a double
+        userNumber = userinput.nextDouble();
 
+        //double -> int (truncates any decimal)
+        number = (int) userNumber;
+
+        // Extract digits
+        tens = number / 10;
+        ones = number % 10;
+
+        System.out.println("Tens digit: " + tens);
+        System.out.println("Ones digit: " + ones);
+    }
+}
