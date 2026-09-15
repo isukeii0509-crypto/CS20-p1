@@ -12,7 +12,7 @@ public class digits {
 		int x;
 
 		//User input creation
-		 Scanner userinput = new Scanner (System.in);
+	Scanner userinput = new Scanner (System.in);
 		 
 		 //Get user input for int
 		 System.out.print("Enter integer: ");
@@ -20,10 +20,10 @@ public class digits {
 		 
 		 //Get user input for double
 		 System.out.print("Enter double: ");
-		 d = userinput.nextInt();
+		 d = userinput.nextDouble();
 
-		x= i * (int)d ;
-		System.out.println
-		System.out.println("Your digits are: " + x);
+		 x = i * (int)d;
+		 System.out.println("Your digits are: " + x);
 	}
 	}
+
