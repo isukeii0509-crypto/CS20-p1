@@ -20,7 +20,7 @@ public class digits {
         // Get user input as a double
         userNumber = userinput.nextDouble();
 
-        //double -> int (truncates any decimal)
+        //double -> int 
         number = (int) userNumber;
 
         // Extract digits
@@ -29,5 +29,7 @@ public class digits {
 
         System.out.println("Tens digit: " + tens);
         System.out.println("Ones digit: " + ones);
+        
+        // Jack Nguyen
     }
 }
