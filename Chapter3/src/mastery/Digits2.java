@@ -1,8 +1,8 @@
-package skillbuilder;
+package mastery;
 
 import java.util.Scanner;
 
-public class digits2 {
+public class Digits2 {
 
     public static void main(String[] args) {
 
