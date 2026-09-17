@@ -8,14 +8,12 @@ public class digits {
 
         // declaration
         double userNumber;
-        int number;
-        int tens;
-        int ones;
+        int number;  int tens; int ones;
 
         // User input creation
         Scanner userinput = new Scanner (System.in);
         
-        System.out.print("Enter a two digit code:");
+        System.out.print("Enter a two digit number:");
         
         // Get user input as a double
         userNumber = userinput.nextDouble();

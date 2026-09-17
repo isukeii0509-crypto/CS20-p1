@@ -14,11 +14,11 @@ public class rectangle {
 	 //create scanner object from
 	 Scanner userinput = new Scanner (System.in);
 	 
-	 //Get user input from keyboard
+	 //Get user input from user
 	 System.out.print("Enter length: ");
 	 width = userinput.nextInt();
 	 
-	//Get user input from keyboard
+	//Get user input from user
 		 System.out.print("Enter width: ");
 		 length = userinput.nextInt();
     
