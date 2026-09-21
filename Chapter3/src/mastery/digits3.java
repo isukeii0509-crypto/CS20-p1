@@ -7,8 +7,8 @@ public class digits3 {
     public static void main(String[] args) {
 
         // declaration
-        double userNumber;
-        int number;  int hundreds; int tens; int ones;
+	        double userNumber;
+	        int number;  int hundreds; int tens; int ones;
 
         // User input creation
         Scanner userinput = new Scanner (System.in);
