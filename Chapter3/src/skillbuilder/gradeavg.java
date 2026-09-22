@@ -13,7 +13,7 @@ public class gradeavg {
         int Physicsgrade;
         int Chemgrade;
         double avg;
-        String rawInput; // holder for text input
+        String rawInput; 
 
         // User input creation
         Scanner userinput = new Scanner(System.in);
