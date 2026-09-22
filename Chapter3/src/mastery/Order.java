@@ -13,6 +13,10 @@ public class Order {
     	double sodas = 0.99;
     	double tax = 0.065; // 6.5% tax
     	
+    	int burgerCount; 
+    	int friesCount;
+    	int sodasCount;
+
     	//user input
     	Scanner userinput = new Scanner(System.in);
     	
@@ -21,15 +25,15 @@ public class Order {
     	System.out.println("Each cup of Soda is $0.99"); 
     	
     	System.out.print("Enter an amount of burgers you'd like to order:");
-    	userOrder = userinput.nextDouble();
+    	burgerCount = userinput.nextInt();
     	System.out.println("Enter an amount of fries you'd like to order:");
-    	userOrder = userinput.nextDouble();
+    	friesCount = userinput.nextInt();
     	System.out.println("Enter an amount of sodas you'd like to order:");
-    	userOrder = userinput.nextDouble();
+    	sodasCount = userinput.nextInt();
     			
     
 
-    			
+    	double userOrder = 
     	double Totaltax = userOrder * tax;
         
     	
