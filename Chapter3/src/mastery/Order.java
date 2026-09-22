@@ -33,13 +33,14 @@ public class Order {
     			
     
 
-    	double userOrder = 
-    	double Totaltax = userOrder * tax;
+    	double FoodTotal = (burgerCount * Burgers) + (friesCount * fries) + (sodasCount * sodas);
+    	double Totaltax = FoodTotal * tax;
         
     	
-    	System.out.println("Your total before tax:" + userOrder);
-    	System.out.print("Tax:" + Totaltax);
-    	System.out.print("Your final cost is:" + Totaltax + userOrder);
+    	System.out.println("Your total before tax: " + FoodTotal);
+    	System.out.println("Tax: " + Totaltax);
+    	System.out.println("Your final cost is: " + (FoodTotal + Totaltax));
+
     }
 }
 
