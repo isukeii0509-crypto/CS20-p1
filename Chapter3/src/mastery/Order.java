@@ -12,7 +12,7 @@ public class Order {
     	double fries = 1.09;
     	double sodas = 0.99;
     	double tax = 0.065; // 6.5% tax
-    	
+
     	int burgerCount; 
     	int friesCount;
     	int sodasCount;
