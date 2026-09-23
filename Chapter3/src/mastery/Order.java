@@ -26,9 +26,9 @@ public class Order {
     	
     	System.out.print("Enter an amount of burgers you'd like to order:");
     	burgerCount = userinput.nextInt();
-    	System.out.println("Enter an amount of fries you'd like to order:");
+    	System.out.print("Enter an amount of fries you'd like to order:");
     	friesCount = userinput.nextInt();
-    	System.out.println("Enter an amount of sodas you'd like to order:");
+    	System.out.print("Enter an amount of sodas you'd like to order:");
     	sodasCount = userinput.nextInt();
     			
     
@@ -37,9 +37,9 @@ public class Order {
     	double Totaltax = FoodTotal * tax;
         
     	
-    	System.out.println("Your total before tax: " + FoodTotal);
-    	System.out.println("Tax: " + Totaltax);
-    	System.out.println("Your final cost is: " + (FoodTotal + Totaltax));
+    	System.out.printf("Your total before tax: $%.2f%n", FoodTotal);
+    	System.out.printf("Tax: $%.2f%n", Totaltax);
+    	System.out.printf("Your final cost is: $%.2f%n", (FoodTotal + Totaltax));
 
     }
 }
