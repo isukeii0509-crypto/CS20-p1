@@ -30,7 +30,6 @@ public class digits3 {
         System.out.println("Tens digit: " + tens);
         System.out.println("Ones digit: " + ones);
         
-        
-        // Jack Nguyen
+                // Jack Nguyen
     }
 }
