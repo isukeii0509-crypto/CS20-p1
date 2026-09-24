@@ -15,11 +15,17 @@ public class Hurricane {
     	
     	// checking category
     	if (category ==1 ) {
-    		System.out.print("Category 1 Hurrycane");
-    		System.out.print("MPH: 74-95");
-    		System.out.print("61-82 kts");
-    		System.out.print("119-153 km/hr");
+    		System.out.println("Category 1 Hurricane");
+    		System.out.println("MPH: 74-95");
+    		System.out.println("61-82 kt");
+    		System.out.println("119-153 km/hr");
     		
+    	}
+    	else if (category ==2) {
+    		System.out.println("Category 2 Hurricane");
+    		System.out.println("MPH: 96-110");
+    		System.out.println("83-95 kt");
+    		System.out.println("154-177 km/hr");
     	}
 
 
