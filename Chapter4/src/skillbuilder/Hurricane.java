@@ -49,6 +49,6 @@ public class Hurricane {
     		
     	}
 
-
+ // Jack Nguyen 
 }
 }
