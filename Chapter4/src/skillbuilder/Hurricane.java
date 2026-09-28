@@ -27,6 +27,27 @@ public class Hurricane {
     		System.out.println("83-95 kt");
     		System.out.println("154-177 km/hr");
     	}
+    	else if (category ==3) {
+    		System.out.println("Category 3 Hurricane");
+    		System.out.println("MPH: 111-130");
+    		System.out.println("96-113 kt");
+    		System.out.println("178-209 km/h");
+    	
+    	}
+    	else if (category ==4) {
+    		System.out.println("Category 4 Hurricane");
+    		System.out.println("MPH: 131-155");
+    		System.out.println("114-135 kt");
+    		System.out.println("210-349 km/h");
+    		
+    	}
+    	else if (category ==5) {
+    		System.out.println("Category 5 Hurricane");
+    		System.out.println("Greater than 155 MPH");
+    		System.out.println("135 kt");
+    		System.out.println("249 km/h or greater");
+    		
+    	}
 
 
 }
