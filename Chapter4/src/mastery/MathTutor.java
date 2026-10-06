@@ -24,12 +24,10 @@ public class MathTutor {
 		if (operatornum == 1) {
 			operator = '+';
 			correctanswer = randomnum1 + randomnum2;
-			
 		}
 		else if (operatornum == 2) {
 			operator = '-';
 			correctanswer = randomnum1 - randomnum2;
-			
 		}
 		else if (operatornum ==3) {
 			operator = '*';
@@ -38,17 +36,21 @@ public class MathTutor {
 		else if (operatornum == 4) {
 			operator = '/';
 			correctanswer = randomnum1 / randomnum2;
-		}
 		
 		//prompts user for answer
 		System.out.print("What is " + randomnum1 + " " + operator + " " + randomnum2 + "? ");
-		int userinput = userinput.nextInt();
+         int userAnswer = userinput.nextInt();
+		// Check the answer and display message
+		if (userAnswer == correctanswer) {
+			System.out.println("Correct!");
+		} else {
+			System.out.println("Incorrect. The correct answer is " + correctanswer + ".");
+		}
 		
-		
-		
-		
-		
-		
+		}
 	}
-
 }
+		// Jack Nguyen
+		
+	
+
