@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Delivery {
     public static void main(String[] args) {
-        // Initialize userinput
+        // userinput
         Scanner userinput = new Scanner(System.in);
         
         // Ask user for length, width and height
