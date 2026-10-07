@@ -46,7 +46,7 @@ public class MathTutor {
 		} else {
 			System.out.println("Incorrect. The correct answer is " + correctanswer + ".");
 		}
-		// Jack Nguyen1
+		// Jack Nguyen 
 		}
 	}
 }
