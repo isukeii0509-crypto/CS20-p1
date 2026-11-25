@@ -1,9 +1,7 @@
 package skillbuilder;
 
 public class TestRectangle {
-
 	public static void main(String[] args) {
-
 		Rectangle box1 = new Rectangle();
 		Rectangle box2 = new Rectangle(4, 5);
 
@@ -16,5 +14,17 @@ public class TestRectangle {
 
 		System.out.println("Box 2 area: " + box2.area());
 		System.out.println("Box 2 perimeter: " + box2.perimeter());
+
+		Rectangle.displayAreaFormula();
+
+		Rectangle box3 = new Rectangle(4, 5);
+		if (box2.equals(box3)) {
+			System.out.println("Rectangles are equal.");
+		} else {
+			System.out.println("Rectangles are not equal.");
+		}
+
+		System.out.println(box1);
+		System.out.println(box2);
 	}
 }
